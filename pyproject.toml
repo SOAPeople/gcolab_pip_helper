@@ -1,0 +1,19 @@
+[project]
+name = "gcolab_pip_helper"
+version = "0.1.0"
+authors = [
+  { name="Dennis Schulmeister-Zimolong", email="dennis.schulmeister-zimolong@soapeople.com" },
+]
+description = "Small utility to import libraries from private git repositories in Google Colab"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: The Unlicense (Unlicense)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/SOAPeople/gcolab_pip_helper"
+"Bug Tracker" = "https://github.com/SOAPeople/gcolab_pip_helper/issues"
