@@ -17,7 +17,3 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/SOAPeople/gcolab_pip_helper"
 "Bug Tracker" = "https://github.com/SOAPeople/gcolab_pip_helper/issues"
-
-[build-system]
-requires = ["setuptools>=40.8.0", "wheel"]
-build-backend = "setuptools.build_meta:__legacy__"

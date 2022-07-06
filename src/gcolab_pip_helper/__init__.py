@@ -10,7 +10,7 @@ def read_token(path_parts):
     Returns:
       Token read from the text file
     """
-    path = os.path.join("", "drive", "My Drive")
+    path = os.sep +  os.path.join("drive", "My Drive")
     token = ""
 
     for part in path_parts:
