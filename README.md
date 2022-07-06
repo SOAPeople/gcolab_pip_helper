@@ -16,8 +16,11 @@ that for the installation.
   3. Install the private library in your notebook like this:
 
      ```python
+     from google.colab import drive
+     drive.mount("/drive")
+
      import gcolab_pip_helper as gcph
-     github_token = gcph.read_token(("Colab Notebooks", "Tests", "github_token.txt"))
+     github_token = gcph.read_token("/drive/Colab Notebooks/Tests/github_token.txt")
      gcph.pip_install("git+https://%s@github.com/User/Repo" % github_token)
      ```
 
